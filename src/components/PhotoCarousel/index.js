@@ -19,7 +19,12 @@ const PhotoCarousel = () => {
 
   return (
     <div>
-      <Carousel>
+      <Carousel
+      // className="carousel"
+      // style={{
+      //   height: 500px,
+      // }}
+      >
         {items.map((item, i) => (
           <Item key={i} item={item} />
         ))}
