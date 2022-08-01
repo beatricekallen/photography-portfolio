@@ -1,5 +1,5 @@
 import * as React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -13,32 +13,44 @@ import MenuItem from "@mui/material/MenuItem";
 import Avatar from "@mui/material/Avatar";
 import Badge from "@mui/material/Badge";
 
-const Header = () => {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
+const Header = (props) => {
+  // const [anchorElNav, setAnchorElNav] = React.useState(null);
+  // const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
+  // const handleOpenNavMenu = (event) => {
+  //   setAnchorElNav(event.currentTarget);
+  // };
+  // const handleOpenUserMenu = (event) => {
+  //   setAnchorElUser(event.currentTarget);
+  // };
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
+  // const handleCloseNavMenu = () => {
+  //   setAnchorElNav(null);
+  // };
 
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
+  // const handleCloseUserMenu = () => {
+  //   setAnchorElUser(null);
+  // };
+
+  const tabs = ["About", "Portfolio"];
 
   return (
     <AppBar position="sticky" className="app-bar">
       <Container maxWidth="xl" className="justify-content-between">
         <Toolbar disableGutters>
-          <a className="nav__home" href="/">
+          <a href="/">
             <Typography className="nav__title">BEATRICE ALLEN</Typography>
           </a>
+          {tabs.map((tab) => (
+            <Link
+              to={`${tab}`}
+              key={tab}
+              href={"#" + tab.toLowerCase()}
+              onClick={() => props.handlePageChange(tab)}
+            >
+              <Button>{tab}</Button>
+            </Link>
+          ))}
         </Toolbar>
       </Container>
     </AppBar>
