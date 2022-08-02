@@ -37,20 +37,24 @@ const Header = (props) => {
   return (
     <AppBar position="sticky" className="app-bar">
       <Container maxWidth="xl" className="justify-content-between">
-        <Toolbar disableGutters>
-          <a href="/">
-            <Typography className="nav__title">BEATRICE ALLEN</Typography>
-          </a>
-          {tabs.map((tab) => (
-            <Link
-              to={`${tab}`}
-              key={tab}
-              href={"#" + tab.toLowerCase()}
-              onClick={() => props.handlePageChange(tab)}
-            >
-              <Button>{tab}</Button>
-            </Link>
-          ))}
+        <Toolbar disableGutters className="app-bar justify-content-between">
+          <div>
+            <a href="/">
+              <h1 className="nav-title">BEATRICE ALLEN PHOTOGRAPHY</h1>
+            </a>
+          </div>
+          <div>
+            {tabs.map((tab) => (
+              <Link
+                to={`${tab}`}
+                key={tab}
+                href={"#" + tab.toLowerCase()}
+                onClick={() => props.handlePageChange(tab)}
+              >
+                <Button>{tab}</Button>
+              </Link>
+            ))}
+          </div>
         </Toolbar>
       </Container>
     </AppBar>

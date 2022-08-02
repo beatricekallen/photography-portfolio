@@ -1,18 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Poiret+One&display=swap");
+
+:root {
+  --ff-primary: "Heebo", sans-serif;
+  --ff-secondary: "Poiret One", cursive;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-emphasis: none;
+  text-decoration: none;
 }
 
 .carousel {
   background-size: cover;
   background-position: 60%;
+}
+
+.nav-title {
+  font-family: var(--ff-secondary);
+  font-size: 48px !important;
+}
+
+.app-bar {
+  text-decoration: none !important;
+  color: white !important;
+  background-color: white !important;
+  list-style: none;
+}
+
+.justify-content-between {
+  justify-content: space-between;
 }
