@@ -9,6 +9,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--ff-primary) !important;
 }
 
 a {
@@ -47,4 +48,8 @@ a:visited {
 
 .justify-content-between {
   justify-content: space-between;
+}
+
+.button {
+  font-family: var(--ff-primary) !important;
 }

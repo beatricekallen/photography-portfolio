@@ -9,35 +9,53 @@ import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Iceland from "../../pages/Iceland";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
 
 const Gallery = ({ galleries }) => {
-  return galleries.map((gallery) => (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={gallery.image}
-          alt={gallery.alt}
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            {gallery.title}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {gallery.description}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        {/* <Link to={`/viewtrip/${trip._id}`}> */}
-        {/* <Route path="/" element={<Home />} /> */}
-        <Link to={`/${gallery.title}`}>
-          <Button size="small">See More</Button>
-        </Link>
-      </CardActions>
-    </Card>
-  ));
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        {galleries.map((gallery) => (
+          <Grid item xs={6} md={3} style={{ display: "flex" }}>
+            <Card
+              style={{
+                marginTop: 15,
+                width: 345,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={gallery.image}
+                  alt={gallery.alt}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {gallery.title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {gallery.description}
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                {/* <Link to={`/viewtrip/${trip._id}`}> */}
+                {/* <Route path="/" element={<Home />} /> */}
+                <Link to={`/${gallery.title}`}>
+                  <Button size="small">See More</Button>
+                </Link>
+              </CardActions>
+            </Card>
+          </Grid>
+        ))}
+        ;
+      </Grid>
+    </Box>
+  );
 };
 
 export default Gallery;

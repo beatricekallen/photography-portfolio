@@ -51,7 +51,7 @@ const Header = (props) => {
                 href={"#" + tab.toLowerCase()}
                 onClick={() => props.handlePageChange(tab)}
               >
-                <Button>{tab}</Button>
+                <Button className="button">{tab}</Button>
               </Link>
             ))}
           </div>
