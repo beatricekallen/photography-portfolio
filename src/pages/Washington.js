@@ -8,11 +8,14 @@ const Washington = () => {
       <h1>Washington State</h1>
       <h2>June 2022</h2>
       <div className="gallery">
-        <img src={Washington1} alt="Iceland"></img>
+        <img src={Washington1} alt="Japanese Gardens in Seattle"></img>
         <p>Japanese Gardens in Seattle</p>
-        <img src={Washington2} alt="Iceland"></img>
+        <img
+          src={Washington2}
+          alt="Hurricane Ridge hike, Olympic National Park"
+        ></img>
         <p>Hurricane Ridge hike, Olympic National Park</p>
-        <img src={Washington3} alt="Iceland"></img>
+        <img src={Washington3} alt="Olympic National Park"></img>
         <p>Olympic National Park</p>
       </div>
     </>

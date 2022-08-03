@@ -12,21 +12,21 @@ const SouthCarolina = () => {
     <div className="gallery">
       <h1>South Carolina</h1>
       <h2>November 2021</h2>
-      <img src={SC1} alt="Iceland"></img>
+      <img src={SC1} alt="Hunting Island State Park"></img>
       <p>Hunting Island State Park</p>
-      <img src={SC2} alt="Iceland"></img>
+      <img src={SC2} alt="Hunting Island State Park"></img>
       <p>Hunting Island State Park</p>
-      <img src={SC3} alt="Iceland"></img>
+      <img src={SC3} alt="Hunting Island State Park"></img>
       <p>Hunting Island State Park</p>
-      <img src={SC4} alt="Iceland"></img>
+      <img src={SC4} alt="Boneyard Beach"></img>
       <p>Boneyard Beach</p>
-      <img src={SC5} alt="Iceland"></img>
+      <img src={SC5} alt="Boneyard Beach"></img>
       <p>Boneyard Beach</p>
-      <img src={SC6} alt="Iceland"></img>
+      <img src={SC6} alt="Boneyard Beach"></img>
       <p>Boneyard Beach</p>
-      <img src={SC7} alt="Iceland"></img>
+      <img src={SC7} alt="Old Sheldon Church Ruins"></img>
       <p>Old Sheldon Church Ruins</p>
-      <img src={SC8} alt="Iceland"></img>
+      <img src={SC8} alt="Old Sheldon Church Ruins"></img>
       <p>Old Sheldon Church Ruins</p>
     </div>
   );

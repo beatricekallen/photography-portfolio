@@ -11,17 +11,17 @@ const Iceland = () => {
       <h1>Iceland</h1>
       <h2>August and September 2021</h2>
       <div className="gallery">
-        <img src={Iceland1} alt="Iceland"></img>
+        <img src={Iceland1} alt="Reynisfjara Beach"></img>
         <p>Reynisfjara Beach</p>
-        <img src={Iceland2} alt="Iceland"></img>
+        <img src={Iceland2} alt="Stuðlagil Canyon"></img>
         <p>Stuðlagil Canyon</p>
-        <img src={Iceland3} alt="Iceland"></img>
+        <img src={Iceland3} alt="Húsavík"></img>
         <p>Húsavík</p>
-        <img src={Iceland4} alt="Iceland"></img>
+        <img src={Iceland4} alt="Hverir"></img>
         <p>Hverir</p>
-        <img src={Iceland5} alt="Iceland"></img>
+        <img src={Iceland5} alt="Dimmuborgir"></img>
         <p>Dimmuborgir</p>
-        <img src={Iceland6} alt="Iceland"></img>
+        <img src={Iceland6} alt="Thingvellir National Park"></img>
         <p>Thingvellir National Park</p>
       </div>
     </>
