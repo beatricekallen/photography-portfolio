@@ -4,14 +4,18 @@ import Washington3 from "../assets/Washington/washington-3.JPG";
 
 const Washington = () => {
   return (
-    <div className="gallery">
-      <img src={Washington1} alt="Iceland"></img>
-      <p>Japanese Gardens in Seattle</p>
-      <img src={Washington2} alt="Iceland"></img>
-      <p>Hurricane Ridge hike, Olympic National Park</p>
-      <img src={Washington3} alt="Iceland"></img>
-      <p>Olympic National Park</p>
-    </div>
+    <>
+      <h1>Washington State</h1>
+      <h2>June 2022</h2>
+      <div className="gallery">
+        <img src={Washington1} alt="Iceland"></img>
+        <p>Japanese Gardens in Seattle</p>
+        <img src={Washington2} alt="Iceland"></img>
+        <p>Hurricane Ridge hike, Olympic National Park</p>
+        <img src={Washington3} alt="Iceland"></img>
+        <p>Olympic National Park</p>
+      </div>
+    </>
   );
 };
 

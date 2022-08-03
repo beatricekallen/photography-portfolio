@@ -33,6 +33,16 @@ img {
   max-height: 80vh;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--ff-secondary);
+}
+
+p {
+  font-family: var(--ff-primary);
+}
+
 .gallery {
   margin: 20px;
 }

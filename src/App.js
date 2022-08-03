@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Iceland from "./pages/Iceland";
 import Washington from "./pages/Washington";
 import SouthCarolina from "./pages/SouthCarolina";
+import DukeGardens from "./pages/DukeGardens";
 import About from "./components/About";
 import Home from "../src/pages/Home";
 import "./App.css";
@@ -63,6 +64,7 @@ function App() {
           <Route path="/Iceland" element={<Iceland />} />
           <Route path="/Washington" element={<Washington />} />
           <Route path="/SouthCarolina" element={<SouthCarolina />} />
+          <Route path="/DukeGardens" element={<DukeGardens />} />
 
           <Route
             path="/portfolio"
