@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import Carousel from "./components/PhotoCarousel";
+// import Carousel from "./components/PhotoCarousel";
 import Gallery from "./components/Gallery";
-import IcelandPhoto from "../src/assets/iceland-img.JPG";
-import SCPhoto from "../src/assets/sc-img.JPG";
-import SeattlePhoto from "../src/assets/seattle-img.JPG";
-import DGPhoto from "../src/assets/duke-gardens-img.JPG";
-import { Link } from "react-router-dom";
+import IcelandPhoto from "../src/assets/Iceland/iceland-img.JPG";
+import SCPhoto from "../src/assets/SouthCarolina/sc-img.JPG";
+import SeattlePhoto from "../src/assets/Washington/seattle-img.JPG";
+import DGPhoto from "../src/assets/DukeGardens/duke-gardens-img.JPG";
+// import { Link } from "react-router-dom";
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Iceland from "./pages/Iceland";

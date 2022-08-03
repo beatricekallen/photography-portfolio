@@ -7,8 +7,6 @@ import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Iceland from "../../pages/Iceland";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 
@@ -42,11 +40,13 @@ const Gallery = ({ galleries }) => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
+              <CardActions className="button-wrapper">
                 {/* <Link to={`/viewtrip/${trip._id}`}> */}
                 {/* <Route path="/" element={<Home />} /> */}
                 <Link to={`/${gallery.page}`}>
-                  <Button size="small">See More</Button>
+                  <Button size="small" className="button">
+                    See More
+                  </Button>
                 </Link>
               </CardActions>
             </Card>

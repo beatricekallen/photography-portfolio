@@ -49,7 +49,7 @@ p {
 
 .carousel {
   background-size: cover;
-  background-position: 60%;
+  background-position: 10% 40%;
 }
 
 .nav-title {
@@ -68,6 +68,12 @@ p {
   justify-content: space-between;
 }
 
+.button-wrapper {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
 .button {
   font-family: var(--ff-primary) !important;
+  color: black !important;
 }
