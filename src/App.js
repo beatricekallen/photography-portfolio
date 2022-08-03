@@ -36,7 +36,7 @@ function App() {
     },
     {
       id: 3,
-      page: "Duke-Gardens",
+      page: "DukeGardens",
       title: "Duke Gardens",
       image: DGPhoto,
       alt: "Duke Gardens",
