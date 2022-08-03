@@ -10,6 +10,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Iceland from "./pages/Iceland";
 import Washington from "./pages/Washington";
+import SouthCarolina from "./pages/SouthCarolina";
 import About from "./components/About";
 import Home from "../src/pages/Home";
 import "./App.css";
@@ -26,7 +27,7 @@ function App() {
     },
     {
       id: 2,
-      page: "South-Carolina",
+      page: "SouthCarolina",
       title: "South Carolina",
       image: SCPhoto,
       alt: "South Carolina",
@@ -61,6 +62,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/Iceland" element={<Iceland />} />
           <Route path="/Washington" element={<Washington />} />
+          <Route path="/SouthCarolina" element={<SouthCarolina />} />
 
           <Route
             path="/portfolio"
