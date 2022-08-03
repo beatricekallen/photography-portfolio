@@ -29,6 +29,14 @@ a:visited {
   text-decoration: none;
 }
 
+img {
+  max-height: 80vh;
+}
+
+.gallery {
+  margin: 20px;
+}
+
 .carousel {
   background-size: cover;
   background-position: 60%;
