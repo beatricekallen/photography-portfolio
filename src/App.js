@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Iceland from "./pages/Iceland";
+import Washington from "./pages/Washington";
 import About from "./components/About";
 import Home from "../src/pages/Home";
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
   const galleries = [
     {
       id: 1,
+      page: "Iceland",
       title: "Iceland",
       image: IcelandPhoto,
       alt: "Iceland",
@@ -24,6 +26,7 @@ function App() {
     },
     {
       id: 2,
+      page: "South-Carolina",
       title: "South Carolina",
       image: SCPhoto,
       alt: "South Carolina",
@@ -31,6 +34,7 @@ function App() {
     },
     {
       id: 3,
+      page: "Duke-Gardens",
       title: "Duke Gardens",
       image: DGPhoto,
       alt: "Duke Gardens",
@@ -38,9 +42,10 @@ function App() {
     },
     {
       id: 4,
-      title: "Seattle",
+      page: "Washington",
+      title: "Washington State",
       image: SeattlePhoto,
-      alt: "Seattle",
+      alt: "Washington State",
       description: "June 2022",
     },
   ];
@@ -55,6 +60,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Iceland" element={<Iceland />} />
+          <Route path="/Washington" element={<Washington />} />
+
           <Route
             path="/portfolio"
             element={<Gallery galleries={galleries} />}

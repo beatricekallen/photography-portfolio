@@ -45,7 +45,7 @@ const Gallery = ({ galleries }) => {
               <CardActions>
                 {/* <Link to={`/viewtrip/${trip._id}`}> */}
                 {/* <Route path="/" element={<Home />} /> */}
-                <Link to={`/${gallery.title}`}>
+                <Link to={`/${gallery.page}`}>
                   <Button size="small">See More</Button>
                 </Link>
               </CardActions>
