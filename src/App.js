@@ -12,6 +12,7 @@ import Iceland from "./pages/Iceland";
 import Washington from "./pages/Washington";
 import SouthCarolina from "./pages/SouthCarolina";
 import DukeGardens from "./pages/DukeGardens";
+import OBXPhoto from "../src/assets/OuterBanks/obx-1.tif";
 import About from "./components/About";
 import Home from "../src/pages/Home";
 import "./App.css";
@@ -49,6 +50,14 @@ function App() {
       image: SeattlePhoto,
       alt: "Washington State",
       description: "June 2022",
+    },
+    {
+      id: 4,
+      page: "OuterBanks",
+      title: "Outer Banks",
+      image: OBXPhoto,
+      alt: "Outer Banks",
+      description: "November 2020 and June 2021",
     },
   ];
 

@@ -18,7 +18,7 @@ const Gallery = ({ galleries }) => {
           <Grid item xs={6} md={3} style={{ display: "flex" }}>
             <Card
               style={{
-                marginTop: 15,
+                margin: 15,
                 width: 345,
                 display: "flex",
                 flexDirection: "column",
