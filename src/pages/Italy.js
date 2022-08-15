@@ -1,35 +1,32 @@
-import OBX1 from "../../src/assets/OuterBanks/obx-1.tif";
-import OBX2 from "../../src/assets/OuterBanks/obx-2.tif";
-import OBX3 from "../../src/assets/OuterBanks/obx-3.jpeg";
-import OBX4 from "../../src/assets/OuterBanks/obx-4.JPG";
-import OBX5 from "../../src/assets/OuterBanks/obx-5.JPG";
-import OBX6 from "../../src/assets/OuterBanks/obx-6.JPG";
-import OBX7 from "../../src/assets/OuterBanks/obx-7.JPG";
-import OBX8 from "../../src/assets/OuterBanks/obx-8.JPG";
-import OBX9 from "../../src/assets/OuterBanks/obx-9.JPG";
+import Italy1 from "../../src/assets/Italy/italy-1.jpeg";
+import Italy2 from "../../src/assets/Italy/italy-2.jpeg";
+import Italy3 from "../../src/assets/Italy/italy-3.jpeg";
+import Italy4 from "../../src/assets/Italy/italy-4.jpeg";
+import Italy5 from "../../src/assets/Italy/italy-5.jpeg";
+import Italy6 from "../../src/assets/Italy/italy-6.jpeg";
+import Italy7 from "../../src/assets/Italy/italy-7.jpeg";
+import Italy8 from "../../src/assets/Italy/italy-8.jpeg";
 
 const Italy = () => {
   return (
     <div className="gallery">
-      <h1>Outer Banks</h1>
-      <img src={OBX1} alt="Kitty Hawk at sunset"></img>
-      <p>Kitty Hawk at sunset</p>
-      <img src={OBX2} alt="Kitty Hawk pier"></img>
-      <p>Kitty Hawk pier</p>
-      <img src={OBX3} alt="Seagulls"></img>
-      <p>Seagulls on the beach at Kitty Hawk</p>
-      <img src={OBX4} alt="Pea Island path"></img>
-      <p>Pea Island trail</p>
-      <img src={OBX5} alt="Pea Island"></img>
-      <p>Pea Island</p>
-      <img src={OBX6} alt="Pea Island"></img>
-      <p>Pea Island</p>
-      <img src={OBX7} alt="Pea Island"></img>
-      <p>Pea Island</p>
-      <img src={OBX8} alt="Bodie Island Light Station"></img>
-      <p>Bodie Island Light Station</p>
-      <img src={OBX9} alt="Pea Island"></img>
-      <p>Pea Island</p>
+      <h1>Italy</h1>
+      <img src={Italy1} alt="Bellagio"></img>
+      <p>Bellagio</p>
+      <img src={Italy2} alt="Lake Como"></img>
+      <p>Lake Como</p>
+      <img src={Italy3} alt="Manarola"></img>
+      <p>Manarola in Cinque Terre</p>
+      <img src={Italy4} alt="Florence"></img>
+      <p>Florence</p>
+      <img src={Italy5} alt="Tuscany"></img>
+      <p>Tuscany</p>
+      <img src={Italy6} alt="Ponte Vecchio"></img>
+      <p>Ponte Vecchio in Florence</p>
+      <img src={Italy7} alt="Siena Cathedral"></img>
+      <p>Siena Cathedral</p>
+      <img src={Italy8} alt="Tuscany"></img>
+      <p>Tuscany</p>
     </div>
   );
 };

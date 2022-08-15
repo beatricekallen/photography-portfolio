@@ -67,7 +67,7 @@ function App() {
       page: "Italy",
       title: "Italy",
       image: ItalyPhoto,
-      alt: "Italy Banks",
+      alt: "Italy",
       description: "October and November 2019",
     },
   ];
