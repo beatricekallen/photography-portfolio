@@ -12,6 +12,7 @@ import Iceland from "./pages/Iceland";
 import Washington from "./pages/Washington";
 import SouthCarolina from "./pages/SouthCarolina";
 import DukeGardens from "./pages/DukeGardens";
+import OuterBanks from "./pages/OuterBanks";
 import OBXPhoto from "../src/assets/OuterBanks/obx-1.tif";
 import About from "./components/About";
 import Home from "../src/pages/Home";
@@ -74,7 +75,7 @@ function App() {
           <Route path="/Washington" element={<Washington />} />
           <Route path="/SouthCarolina" element={<SouthCarolina />} />
           <Route path="/DukeGardens" element={<DukeGardens />} />
-
+          <Route path="/OuterBanks" element={<OuterBanks />} />
           <Route
             path="/portfolio"
             element={<Gallery galleries={galleries} />}

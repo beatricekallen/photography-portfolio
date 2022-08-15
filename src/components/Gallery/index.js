@@ -52,7 +52,6 @@ const Gallery = ({ galleries }) => {
             </Card>
           </Grid>
         ))}
-        ;
       </Grid>
     </Box>
   );

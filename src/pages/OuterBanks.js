@@ -1,11 +1,14 @@
-import DG1 from "../../src/assets/DukeGardens/dg-1.JPG";
-import DG2 from "../../src/assets/DukeGardens/dg-2.JPG";
-import DG3 from "../../src/assets/DukeGardens/dg-3.JPG";
-import DG4 from "../../src/assets/DukeGardens/dg-4.JPG";
-import DG5 from "../../src/assets/DukeGardens/dg-5.JPG";
-import DG6 from "../../src/assets/DukeGardens/dg-6.JPG";
+import OBX1 from "../../src/assets/OuterBanks/obx-1.tif";
+import OBX2 from "../../src/assets/OuterBanks/obx-2.tif";
+import OBX3 from "../../src/assets/OuterBanks/obx-3.jpeg";
+import OBX4 from "../../src/assets/OuterBanks/obx-4.JPG";
+import OBX5 from "../../src/assets/OuterBanks/obx-5.JPG";
+import OBX6 from "../../src/assets/OuterBanks/obx-6.JPG";
+import OBX7 from "../../src/assets/OuterBanks/obx-6.JPG";
+import OBX8 from "../../src/assets/OuterBanks/obx-6.JPG";
+import OBX9 from "../../src/assets/OuterBanks/obx-6.JPG";
 
-const DukeGardens = () => {
+const OuterBanks = () => {
   return (
     <div className="gallery">
       <h1>Duke Gardens</h1>
