@@ -15,6 +15,7 @@ import DukeGardens from "./pages/DukeGardens";
 import OuterBanks from "./pages/OuterBanks";
 import Italy from "./pages/Italy";
 import OBXPhoto from "../src/assets/OuterBanks/obx-1.tif";
+import ItalyPhoto from "../src/assets/Italy/italy-1.jpeg";
 import About from "./components/About";
 import Home from "../src/pages/Home";
 import "./App.css";
@@ -54,12 +55,20 @@ function App() {
       description: "June 2022",
     },
     {
-      id: 4,
+      id: 5,
       page: "OuterBanks",
       title: "Outer Banks",
       image: OBXPhoto,
       alt: "Outer Banks",
       description: "November 2020 and June 2021",
+    },
+    {
+      id: 6,
+      page: "Italy",
+      title: "Italy",
+      image: ItalyPhoto,
+      alt: "Italy Banks",
+      description: "October and November 2019",
     },
   ];
 
