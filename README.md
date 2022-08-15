@@ -4,4 +4,4 @@ This is my photography portfolio. I've been shooting with a Nikon F2 Photomic si
 
 Built with React and Material UI.
 
-Deployed application:
+Deployed application: https://beatricekallen.github.io/photography-portfolio/

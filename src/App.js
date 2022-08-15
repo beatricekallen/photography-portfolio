@@ -79,16 +79,28 @@ function App() {
       <Router>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/Iceland" element={<Iceland />} />
-          <Route path="/Washington" element={<Washington />} />
-          <Route path="/SouthCarolina" element={<SouthCarolina />} />
-          <Route path="/DukeGardens" element={<DukeGardens />} />
-          <Route path="/OuterBanks" element={<OuterBanks />} />
-          <Route path="/Italy" element={<Italy />} />
+          <Route path="/photography-portfolio/" element={<Home />} />
+          <Route path="/photography-portfolio/about" element={<About />} />
+          <Route path="/photography-portfolio/Iceland" element={<Iceland />} />
           <Route
-            path="/portfolio"
+            path="/photography-portfolio/Washington"
+            element={<Washington />}
+          />
+          <Route
+            path="/photography-portfolio/SouthCarolina"
+            element={<SouthCarolina />}
+          />
+          <Route
+            path="/photography-portfolio/DukeGardens"
+            element={<DukeGardens />}
+          />
+          <Route
+            path="/photography-portfolio/OuterBanks"
+            element={<OuterBanks />}
+          />
+          <Route path="/photography-portfolio/Italy" element={<Italy />} />
+          <Route
+            path="/photography-portfolio/portfolio"
             element={<Gallery galleries={galleries} />}
           />
         </Routes>

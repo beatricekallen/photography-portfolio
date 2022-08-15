@@ -48,7 +48,7 @@ const Gallery = ({ galleries }) => {
               <CardActions className="button-wrapper">
                 {/* <Link to={`/viewtrip/${trip._id}`}> */}
                 {/* <Route path="/" element={<Home />} /> */}
-                <Link to={`/${gallery.page}`}>
+                <Link to={`/photography-portfolio/${gallery.page}`}>
                   <Button size="small" className="button">
                     See More
                   </Button>

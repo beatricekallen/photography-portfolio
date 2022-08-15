@@ -31,20 +31,20 @@ const Header = (props) => {
       <Container maxWidth="xl" className="justify-content-between">
         <Toolbar disableGutters className="app-bar justify-content-between">
           <div>
-            <a href="/">
+            <a href="/photography-portfolio/">
               <h1 className="nav-title">BEATRICE ALLEN PHOTOGRAPHY</h1>
             </a>
           </div>
           <div>
             {tabs.map((tab) => (
-              <Link
+              <a
                 to={`${tab}`}
                 key={tab}
-                href={"#" + tab.toLowerCase()}
+                href={"/photography-portfolio/" + tab.toLowerCase()}
                 onClick={() => props.handlePageChange(tab)}
               >
                 <Button className="header-button">{tab}</Button>
-              </Link>
+              </a>
             ))}
           </div>
         </Toolbar>
