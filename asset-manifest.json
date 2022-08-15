@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/photography-portfolio/static/css/main.92c1f8f4.css",
-    "main.js": "/photography-portfolio/static/js/main.6fe1f022.js",
+    "main.js": "/photography-portfolio/static/js/main.e641127d.js",
     "static/js/787.3202ef30.chunk.js": "/photography-portfolio/static/js/787.3202ef30.chunk.js",
     "static/media/obx-5.JPG": "/photography-portfolio/static/media/obx-5.5e977f7bd39153bf7c77.JPG",
     "static/media/obx-6.JPG": "/photography-portfolio/static/media/obx-6.4d20e0fac64001707cd5.JPG",
@@ -57,11 +57,11 @@
     "static/media/italy-6.jpeg": "/photography-portfolio/static/media/italy-6.c76ac1011ff960af088b.jpeg",
     "index.html": "/photography-portfolio/index.html",
     "main.92c1f8f4.css.map": "/photography-portfolio/static/css/main.92c1f8f4.css.map",
-    "main.6fe1f022.js.map": "/photography-portfolio/static/js/main.6fe1f022.js.map",
+    "main.e641127d.js.map": "/photography-portfolio/static/js/main.e641127d.js.map",
     "787.3202ef30.chunk.js.map": "/photography-portfolio/static/js/787.3202ef30.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92c1f8f4.css",
-    "static/js/main.6fe1f022.js"
+    "static/js/main.e641127d.js"
   ]
 }
