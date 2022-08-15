@@ -74,6 +74,16 @@ p {
 }
 
 .button {
-  font-family: var(--ff-primary) !important;
+  font-family: var(--ff-secondary) !important;
   color: black !important;
+}
+
+.header-button {
+  font-family: var(--ff-secondary) !important;
+  color: black !important;
+  font-size: 24px !important;
+}
+
+.card-header {
+  font-family: var(--ff-secondary) !important;
 }

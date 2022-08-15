@@ -32,7 +32,12 @@ const Gallery = ({ galleries }) => {
                   alt={gallery.alt}
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    className="card-header"
+                  >
                     {gallery.title}
                   </Typography>
                   <Typography variant="body2" color="text.secondary">

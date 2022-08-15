@@ -1,17 +1,9 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
-// import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import MenuItem from "@mui/material/MenuItem";
-import Avatar from "@mui/material/Avatar";
-import Badge from "@mui/material/Badge";
 
 const Header = (props) => {
   // const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -51,7 +43,7 @@ const Header = (props) => {
                 href={"#" + tab.toLowerCase()}
                 onClick={() => props.handlePageChange(tab)}
               >
-                <Button className="button">{tab}</Button>
+                <Button className="header-button">{tab}</Button>
               </Link>
             ))}
           </div>
